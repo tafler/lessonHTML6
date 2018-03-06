@@ -1,0 +1,5 @@
+[2018-03-05 10:54:45] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2018-03-05 10:54:45] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2018-03-05 10:54:45] layer "There are many variations of passages of Lorem Ipsum available,": Expected end of input but "," found.
+[2018-03-05 11:14:11] layer "+358465657634": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-05 10:54:45] layer "atikur.ux@gmail.com": Unsupported extension: com
