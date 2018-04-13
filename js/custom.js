@@ -6,6 +6,7 @@
 		infinite: true,
 		autoplay: true,
 		arrows: false,
+        speed: 400,
 		autoplaySpeed: 7000,
 		fade: true,
 		cssEase: 'linear'

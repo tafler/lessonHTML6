@@ -1,0 +1,192 @@
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    .container{
+        width: 970px;
+    }
+    .text-on-slide{
+        top: 30%;
+
+    }
+    .text-on-slide h1{
+        margin-bottom: 5px;        
+    }
+
+    .input-login i{
+        display:none;
+    }
+    .blogs-bott-span span:last-child{
+        float: left;
+    }
+    section h2{
+        padding-top: 50px;
+    }
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .container{
+        width: 750px;
+    }
+    .slick-dots li{
+        display: none;
+    }
+    section h2{
+        padding-top: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .container{
+        width: 100%;
+    }
+    .slide-item img{
+        display: none;
+    }
+    .main-slider-content div:last-child{
+        height: 370px;
+        background: #000000 url(../img/bgs/slider-1.jpg) no-repeat;
+        background-size: cover;
+        background-position-x: right;
+    
+    }
+    .main-slider-content div:first-child{
+        height: 370px;
+        background: #000000 url(../img/bgs/slider-2.jpg) no-repeat;
+        background-size: cover;
+        background-position-x: right;
+    
+    }
+    .main-slider-content div:nth-child(2){
+        height: 370px;
+        background: #000000 url(../img/bgs/slider-3.jpg) no-repeat;
+        background-size: cover;
+        background-position-x: right;
+    
+    }
+    .row{
+        flex-direction: column;
+    }    
+    section h2{
+        padding-top: 45px;
+    }
+    .slick-dots li{
+        display: none;
+    }
+    section .text-on-slide{
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+
+    }
+    section .text-on-slide a{
+        font-size: 14px;
+        text-shadow: 1px 1px 10px black;
+    }
+    section h1{        
+        font-size: 30px;
+        margin: 0 auto;
+        line-height: 40px;
+        padding-top: 30px; 
+        text-shadow: 1px 1px 10px black;
+    }
+    header ul a{
+        margin: 5px;
+        font-size: 14px; 
+    }
+    header ul{
+        width: 200px;
+        top: -25%;
+    }
+    .team-block{
+        margin: 5px auto;        
+    }
+    .team-block .team-contacts{
+        display: block;
+        bottom: 0;
+    }
+    .services .block-services{
+        width: 100%;
+    } 
+       .blogs .blogs-block{
+        width: 100%;
+    }
+    .services .block-services:nth-child(2),
+    .block-services{
+        margin: 5px auto;
+    }
+    .projects .row{
+        margin-bottom: 0;
+    }
+    .proect-item-block img{
+        margin-bottom: 10px;
+    }
+    .projects a{
+        margin-bottom: 60px;
+    }
+    .socials .row{
+        flex-direction: row;
+    }
+    .partner-logo{
+        padding-bottom: 15px;
+    }
+    .blogs-block{
+        margin: 5px auto;
+        margin-bottom: 20px;
+    }
+    .blogs-bott-span span:last-child{
+        margin-left: 20px;
+        
+    }
+    .feedback{
+        background: darkgray;
+    }
+    .feedback .block:first-child{
+        width: 80%;
+        margin: 2% auto;
+    }
+    .feedback .input-login{
+        flex-direction: row;
+    }
+    .feedback .row .block:first-child b{
+        font-size: 27px;
+        margin-top: 20%;
+    }
+    .feedback .row .block:first-child{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .feedback .row .block:first-child input[name="message"] {
+        width: 100%;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    }
+    .feedback .input-message{
+        border: none;
+        margin-bottom: 10px;
+    }
+    
+    .feedback form button{
+        min-width: 100%;
+    }
+    .feedback .block:last-child{
+        width: 100%;
+        margin: 2% auto;
+        padding: 40px;
+        height: auto;
+    }
+    .feedback .block:last-child a{
+        font-size: 18px;
+    }
+    .feedback .row .block{
+        min-height: 0;
+    }
+    .socials .row{
+        padding-left: 0;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
